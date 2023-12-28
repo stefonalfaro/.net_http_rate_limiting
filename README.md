@@ -13,9 +13,9 @@ Add this object to your configuration
     }```
 
 ## Useage for Global Rate Limit
-if (!RateLimit.processRequest(req))
-    return new TooManyRequestsResult();
+```if (!RateLimit.processRequest(req))
+    return new TooManyRequestsResult();```
 
 ## Usage for Specific Limit for Endpoints
-if (!RateLimit.processRequest(req, true))
-    return new TooManyRequestsResult();
+```if (!RateLimit.processRequest(req, true))
+    return new TooManyRequestsResult();```
