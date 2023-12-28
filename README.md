@@ -6,14 +6,14 @@ RateLimit.initialize(configuration.systemSettings.rateLimitConfig);
 
 Add this object to your configuration
 
-    ```
-    public class RateLimitConfig
-    {
-        public int globalRequests { get; set; }
-        public int overridePerEndpointLimit { get; set; }
-        public int thresholdDuration { get; set; }
-    }
-    ```
+```
+public class RateLimitConfig
+{
+    public int globalRequests { get; set; }
+    public int overridePerEndpointLimit { get; set; }
+    public int thresholdDuration { get; set; }
+}
+```
 
 ## Useage for Global Rate Limit
 ```
